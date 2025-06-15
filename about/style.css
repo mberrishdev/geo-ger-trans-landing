@@ -1,5 +1,5 @@
 .about-hero {
-  background: #202a45;
+  background: var(--primary);
   color: #fff;
   padding: 36px 0 0 0;
   min-height: 120px;
@@ -28,8 +28,8 @@
   right: 0;
   width: 80px;
   height: 40px;
-  border-top: 2px solid #202a45;
-  border-right: 2px solid #202a45;
+  border-top: 2px solid var(--primary);
+  border-right: 2px solid var(--primary);
   border-radius: 0 0 0 0;
 }
 .about-main {
@@ -70,7 +70,7 @@
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 0.7em;
-  color: #202a45;
+  color: var(--primary);
 }
 .about-main-exp ul {
   margin: 0 0 1.2em 1.2em;
