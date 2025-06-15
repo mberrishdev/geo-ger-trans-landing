@@ -1,0 +1,132 @@
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background: #f7f7f7;
+  color: #222;
+  margin: 0;
+}
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #e5e8ef;
+  padding: 0;
+}
+.navbar {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 0;
+  margin: 0;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid transparent;
+  transition: border 0.2s, color 0.2s;
+}
+.nav-links a.active,
+.nav-links a:hover {
+  border-bottom: 2px solid #202a45;
+  color: #202a45;
+}
+.services-hero {
+  background: #202a45;
+  color: #fff;
+  padding: 36px 0 0 0;
+  min-height: 120px;
+}
+.services-hero h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 32px 0;
+  padding-left: 120px;
+}
+.services-intro-box {
+  background: #fff;
+  color: #222;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 18px 32px 18px 32px;
+  border-radius: 4px;
+  position: relative;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  font-size: 1rem;
+  text-align: center;
+}
+.services-corner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 40px;
+  border-top: 2px solid #202a45;
+  border-right: 2px solid #202a45;
+  border-radius: 0 0 0 0;
+}
+.services-main {
+  background: #fff;
+  margin: 0;
+  padding: 40px 0 0 0;
+}
+.services-main-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+.services-main-box {
+  background: #f7f7f7;
+  border-radius: 4px;
+  padding: 24px 24px 24px 24px;
+  font-size: 1rem;
+  color: #222;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  flex: 1 1 0;
+}
+.services-main-title {
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0.7em;
+  color: #202a45;
+  font-size: 1.08rem;
+}
+.services-main-subtitle {
+  font-weight: 600;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+  color: #222;
+  font-size: 1.01rem;
+}
+.services-main-box ul {
+  margin: 0 0 1.2em 1.2em;
+  padding: 0;
+  font-size: 0.98rem;
+}
+.services-main-box ul li {
+  margin-bottom: 0.4em;
+  line-height: 1.5;
+}
+.site-footer {
+  background: #202a45;
+  color: #fff;
+  text-align: center;
+  padding: 32px 0 32px 0;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+.site-footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer-inner p {
+  margin: 0.5em 0;
+} 
