@@ -171,7 +171,7 @@ body {
     border-top: 2.5px solid #2d3547;
     border-radius: 0 0 0 0;
   }
-  
+
   .corner-bottomright {
     position: absolute;
     bottom: 24px;
@@ -382,7 +382,6 @@ body {
   background: var(--white);
   padding: 3.5rem 2vw 2.5rem 2vw;
   position: relative;
-  height: 608px;
 }
 .why-choose-inner {
   position: relative;
