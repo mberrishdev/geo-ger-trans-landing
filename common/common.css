@@ -104,21 +104,6 @@ main {
 
 @media (max-width: 900px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1rem 1rem 0.5rem 1rem;
-  }
-  .nav-links {
-    flex-direction: column;
-    gap: 1.2rem;
-    width: 100%;
-    align-items: flex-start;
-    margin-top: 0.5rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .navbar {
     flex-direction: row;
     align-items: center;
     padding: 0.7rem 1rem;
