@@ -16,19 +16,30 @@
   <body>
     <header class="site-header">
       <nav class="navbar">
-        <ul class="nav-links">
+        <div class="hamburger" id="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
           <li><a href="./../">HOME</a></li>
           <li><a href="./../about">ABOUT</a></li>
           <li><a href="./../services">SERVICES</a></li>
           <li><a href="./../rates">RATES</a></li>
-          <li><a href="" class="active">CONTACT</a></li>
+          <li><a href="./../contact" class="active">CONTACT</a></li>
           <li><a href="./../reviews">REVIEWS</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="contact-hero">
-        <h1>Contact</h1>
+        <div class="contact-hero-content">
+          <h1>Contact</h1>
+        </div>
+        <div class="contact-hero-image">
+          <img src="../assets/hero-image.png" alt="Bookshelf" />
+        </div>
+        <div class="contact-hero-gradient"></div>
       </section>
       <section class="contact-main">
         <div class="contact-intro">
@@ -78,4 +89,5 @@
       </div>
     </footer>
   </body>
+  <script src="../common/common.js"></script>
 </html>
