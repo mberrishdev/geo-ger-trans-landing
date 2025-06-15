@@ -4,13 +4,23 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --primary: #202a45;
+  --accent: #e5e8ef;
+  --light: #f7f7f7;
+  --white: #ffffff;
+  --gray: #d9d9d945;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
 html {
   scroll-behavior: smooth;
 }
 body {
   font-family: "Inter", Arial, sans-serif;
-  background: #fff;
-  color: #222;
+  background: var(--white);
+  color: var(--primary);
   line-height: 1.6;
 }
 
@@ -24,15 +34,6 @@ body {
 
 main {
   flex: 1;
-}
-
-:root {
-  --primary: #202a45;
-  --accent: #e5e8ef;
-  --light: #f7f7f7;
-  --white: #fff;
-  --gray: #888;
-  --shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
 }
 
 .site-header {

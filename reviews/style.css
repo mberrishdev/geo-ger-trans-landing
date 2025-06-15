@@ -1,6 +1,6 @@
 .reviews-hero {
   background: var(--primary);
-  color: #fff;
+  color: var(--white);
   padding: 36px 0 0 0;
   min-height: 120px;
 }
@@ -11,7 +11,7 @@
   padding-left: 120px;
 }
 .reviews-intro {
-  background: #fff;
+  background: var(--white);
   color: #222;
   max-width: 900px;
   margin: 0 auto;
@@ -22,7 +22,7 @@
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
 }
 .reviews-main {
-  background: #fff;
+  background: var(--white);
   margin: 0;
   padding: 40px 0 0 0;
 }
