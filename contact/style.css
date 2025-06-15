@@ -10,18 +10,32 @@
   margin: 0 0 32px 0;
   padding-left: 120px;
 }
-.contact-info-box {
+.contact-main {
   background: #fff;
+  margin: 0;
+  padding: 32px 0 0 0;
+}
+.contact-intro {
+  max-width: 900px;
+  margin: 0 auto 24px auto;
+  font-size: 1.05rem;
   color: #222;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 32px 32px 32px 32px;
+  text-align: left;
+}
+.contact-details-box {
+  background: #ededed;
   border-radius: 4px;
-  position: relative;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  padding: 24px 32px 24px 32px;
   font-size: 1rem;
-  text-align: center;
-  margin-top: 32px;
+  color: #222;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  max-width: 90%;
+  margin: 0 auto 32px auto;
+}
+.contact-details-box a {
+  color: #1a3a7c;
+  text-decoration: underline;
+  word-break: break-all;
 }
 .site-footer {
   background: #202a45;

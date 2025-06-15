@@ -1,5 +1,3 @@
-// Smooth scroll for anchor links
-
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     const targetId = this.getAttribute('href').slice(1);
@@ -10,8 +8,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
-
-// Add more JS for interactivity or animations if needed 
 
 document.querySelectorAll('.service-card').forEach(card => {
   card.addEventListener('click', function () {

@@ -375,19 +375,3 @@
   background: #d1d5db;
   min-width: 40px;
 }
-
-/* CONTACT FOOTER */
-.contact-footer {
-  background: var(--primary);
-  color: var(--white);
-  text-align: center;
-  padding: 2.5rem 1rem 2.5rem 1rem;
-}
-.contact-footer-content p {
-  margin-bottom: 0.7em;
-  font-size: 1.08rem;
-}
-.contact-footer-content a {
-  color: var(--white);
-  text-decoration: underline;
-}
