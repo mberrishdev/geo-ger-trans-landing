@@ -1,77 +1,25 @@
-/* Hero Section */
-.contact-hero {
-  background: var(--primary);
-  position: relative;
-  display: flex;
-  align-items: stretch;
-  min-height: 120px;
-  height: 120px;
-}
-.contact-hero-content {
-  position: absolute;
-  left: 60px;
-  top: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  z-index: 2;
-}
-.contact-hero-content h1 {
-  color: #fff;
-  font-size: 1.6rem;
-  font-weight: 600;
-  margin: 0;
-}
-.contact-hero-image {
-  flex: 1 1 100%;
-  min-width: 220px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 40%;
-  z-index: 1;
-  overflow: hidden;
-}
-.contact-hero-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.contact-hero-gradient {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 30%;
-  height: 100%;
-  background: linear-gradient(to right, rgba(10, 20, 40, 0.95), transparent);
-  pointer-events: none;
-  z-index: 1;
-}
-
 /* Main Section */
 .contact-main {
-  background: var(--white);
   margin: 0;
-  padding: 32px 0 0 0;
+  padding: 32px 0;
 }
+
 .contact-intro {
-  max-width: 900px;
+  max-width: 1280px;
   margin: 0 auto 24px auto;
   font-size: 1.05rem;
-  color: #222;
   text-align: left;
-  padding: 0 24px;
+  padding: 32px 0;
 }
+
 .contact-details-box {
   background: #ededed;
+  max-width: 1280px;
   border-radius: 4px;
   padding: 24px 32px;
   font-size: 1rem;
   color: #222;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
-  max-width: 90%;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
   margin: 0 auto 32px auto;
   word-break: break-word;
 }
@@ -83,8 +31,6 @@
 .contact-details-box p {
   margin: 0.5em 0;
 }
-
-/* Footer handled by common.css */
 
 /* Responsive Styles */
 @media (max-width: 900px) {
@@ -147,7 +93,11 @@
     height: 60px;
     left: 0;
     top: 0;
-    background: linear-gradient(to right, rgba(10, 20, 40, 0.95), transparent 70%);
+    background: linear-gradient(
+      to right,
+      rgba(10, 20, 40, 0.95),
+      transparent 70%
+    );
   }
   .contact-intro {
     font-size: 0.97rem;
